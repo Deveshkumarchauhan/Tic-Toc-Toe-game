@@ -28,7 +28,7 @@ boxes.forEach((box, index) => {
   box.addEventListener("click", () => {
     console.log("clicked");
     if (trun0) {
-      box.innerText = "0";
+      box.innerText = "o";
       box.classList.add("red");    // Red class for 0
       trun0 = false;
     } else {
